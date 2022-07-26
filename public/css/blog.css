@@ -1,0 +1,31 @@
+.blog-holder
+{
+    display: block;
+    width: 80%;
+    /* width: max-content; */
+    min-height: 28rem;
+    background-color: rgb(31, 105, 68);
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20px auto;
+    /* align-items: center; */
+}
+.img-holder img{
+    padding-top: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.content-holder{
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.img-content{
+    margin-top: 1rem;
+}
+
+.img-content:first-child{
+    margin-top: 0;
+}

@@ -5,13 +5,13 @@ body{
 }
 .card-holder
 {
-    display: inline-block;
-    /* width: fit-content; */
-    min-height: 9rem;
+    display: block;
+    width: 80%;
+    min-height: 28rem;
     background-color: white;
     border-radius: 2px;
     padding: 20px;
-    margin: 20px 10rem;
+    margin: 20px auto;
     /* align-items: center; */
 }
 .anime-card{
@@ -48,13 +48,13 @@ body{
     /* background-color: yellow; */
 }
 
-a{
+.card-anchor{
     display: inline-block;
     width: fit-content;
     color: black;
     transition: 0.5s;
 }
 
-a:hover{
+.card-anchor:hover{
     transform: scale(1.2);
 }
