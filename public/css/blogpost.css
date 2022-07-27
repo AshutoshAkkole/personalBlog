@@ -1,0 +1,31 @@
+.editor{
+    width: 80%;
+    margin: 4rem auto;
+    margin-bottom: 0;
+    background-color: violet;
+    min-height: 50rem;
+}
+
+.tools{
+    margin: 0 auto;
+    background-color: blue;
+    min-height: 20px;
+}
+.tools>img{
+    margin: 0;
+    padding: 2px;
+    width: 2rem;
+}
+
+.button-holder{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#inputPassword2{
+    display: inline;
+    width:auto;
+}
+
+
+/* <a target="_blank" href="https://icons8.com/icon/53433/image">Image</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */

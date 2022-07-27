@@ -13,7 +13,11 @@ app.get("/",function(req,res){
 })
 
 app.get("/blog",function(req,res){
-    res.render("blog.ejs",{});
+    res.render("blog",{});
+})
+
+app.get("/admin",function(req,res){
+    res.render("postblog",{});
 })
 
 
